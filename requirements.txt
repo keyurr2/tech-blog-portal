@@ -1,0 +1,5 @@
+Django==1.7.10
+markdown2==2.3.0
+Pillow==4.2.1
+numpy==1.13.3
+pandas==0.21.0
