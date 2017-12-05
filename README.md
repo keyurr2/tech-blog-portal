@@ -1,4 +1,4 @@
-Techblog: A blog with the purpose of helping in-house dev team for reducing google effort for small things.
+Techblog: A blog helping in-house dev team for content and code sharing
 ==================
 
 Blog developed in django with the simple but elegant design.
@@ -40,3 +40,16 @@ After that you have to make what is called a migration, to create the tables in 
 	
 	$ python manage.py makemigrations
 	$ python manage.py migrate
+	
+In another terminal you have to run django development server:
+
+	$ python manage.py runserver 0.0.0.0:8000 
+	
+In a browser put the link: [http://localhost:8000/admin/](http://localhost:8000/admin/)
+
+To create admin user from terminal:
+
+	$ python manage.py createsuperuser
+
+The panel will ask you to add username and password. Once you are in django dashboard you can start to add content to
+your blog.
